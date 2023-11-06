@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Appliquer Poppins à tout le texte du document */
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}

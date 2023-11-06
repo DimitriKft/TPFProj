@@ -43,7 +43,7 @@
 .inactive-link {
     color: #12D678; /* Vert pour les liens inactifs */
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 16px;
     font-weight: bold;
     padding: 0.5rem 1rem;
     margin: 0 0.5rem;
@@ -57,7 +57,7 @@
     background-clip: text; /* Appliquer le fond uniquement sur le texte pour les autres navigateurs */
     border-bottom: 3px solid transparent; /* Pour maintenir la consistance de l'espacement */
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 16px;
     font-weight: bold;
     padding: 0.5rem 1rem;
     margin: 0 0.5rem;

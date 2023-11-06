@@ -1,12 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import HeroSection from '../../Pages/HomePage/HeroSection'; 
 
 function HomePage() {
   return (
     <div>
-      <h1>Home Page</h1>
-      {/* Autres contenus de la page d'accueil */}
-      <Link to="/tutorials">Voir les tutoriels</Link> {/* Crée un lien vers TutorialPage */}
+      <HeroSection />
     </div>
   );
 }

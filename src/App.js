@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './Components/Navigation/Navigation'; // Importez votre nouveau composant
 import HomePage from './Pages/HomePage/HomePage';
 import TutoPage from './Pages/TutorialsPage/TutorialsPage'; // Assurez-vous que le chemin est correct
+import 'typeface-poppins';
 
 function App() {
   return (
