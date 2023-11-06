@@ -64,3 +64,14 @@
   }
   
 
+  .active-link .active-icon {
+    color: #ff69b4a9; /* ou la couleur active souhaitée */
+    margin-right: 8px; 
+    
+  }
+  
+  .inactive-link .inactive-icon {
+    color: #12d6779e; /* ou la couleur inactive souhaitée */
+    margin-right: 8px; 
+  }
+  
