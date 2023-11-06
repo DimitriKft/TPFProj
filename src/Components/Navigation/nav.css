@@ -1,0 +1,66 @@
+.menu {
+    /* Définissez une hauteur fixe qui correspond à votre maquette */
+      
+   background-color: #312583; /* Exemple de couleur de fond */
+    height: 80px; /* Exemple de hauteur, à ajuster selon vos besoins */
+    display: flex; /* Utilisez flexbox pour aligner les éléments */
+    align-items: center; /* Centrez les éléments verticalement */
+    justify-content: space-between; /* Espacement entre le logo et la navigation */
+    padding: 0 20px; /* Ajustez le padding horizontal comme nécessaire */
+    /* ... autres styles ... */
+  }
+  
+  
+
+
+  
+  .menu-list {
+    /* Réduire l'espace autour de la liste si nécessaire */
+    list-style: none;
+    display: flex;
+    margin: 0; /* Ajustez le margin comme nécessaire */
+    padding: 0; /* Ajustez le padding comme nécessaire */
+    /* ... autres styles ... */
+  }
+  
+  .menu-item {
+    /* Ajustez le padding autour des éléments de liste si nécessaire */
+    padding: 0 100px; /* Exemple de padding, à ajuster selon vos besoins */
+    display: inline-block;
+    /* ... autres styles ... */
+  }
+
+  .menu-img {
+    height: 175px; /* ou toute autre taille désirée */
+    width: auto; /* pour maintenir le ratio de l'image */
+    /* Ajouter d'autres styles ici si nécessaire */
+  }
+  
+  
+  
+
+  /* Style par défaut pour les liens de navigation */
+.inactive-link {
+    color: #12D678; /* Vert pour les liens inactifs */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+  }
+  
+  /* Style pour le lien actif avec dégradé de couleurs */
+  .active-link {
+    background-image: linear-gradient(to right, #FF69B4, #FBDA61); /* Dégradé de couleurs pour le fond */
+    color: transparent; /* Rendre le texte transparent pour montrer le dégradé de fond */
+    -webkit-background-clip: text; /* Appliquer le fond uniquement sur le texte pour Webkit browsers */
+    background-clip: text; /* Appliquer le fond uniquement sur le texte pour les autres navigateurs */
+    border-bottom: 3px solid transparent; /* Pour maintenir la consistance de l'espacement */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+  }
+  
+
