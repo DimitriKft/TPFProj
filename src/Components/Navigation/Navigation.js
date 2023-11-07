@@ -23,7 +23,6 @@ function Menu() {
     </>
   )}
 </NavLink>
-
         </li>
         <li className="menu-item">
         <NavLink to="/tuto" className={({ isActive }) => 

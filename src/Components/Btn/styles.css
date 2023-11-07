@@ -1,0 +1,37 @@
+
+.hero-btn {
+    color: #FFF;
+    background: linear-gradient(90deg, #FFCFAA 0%, #FA6EB9 100%);
+    margin-left: 45px;
+    margin-top: 20px;
+    box-shadow: 0px 20px 40px 0px rgba(252, 160, 177, 0.70);
+    padding: 19px 23.841px 16.39px 42px;
+    border: none; /* No border */
+    border-radius: 4px; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.2px; /* 170% */
+    text-decoration: none;
+    cursor: pointer; 
+    display: flex; /* Utilisez flex pour aligner le texte et l'icône */
+    justify-content: center; /* Centrer le contenu horizontalement */
+    align-items: center; /* Centrer le contenu verticalement */
+    transition: background-color 0.3s, box-shadow 0.3s; 
+  }
+
+
+  .hero-btn:hover {
+    color: white;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
+    background-image: linear-gradient(to right, #9d50bb, #6e48aa); /* Different gradient on hover */
+  }
+  
+ .hero-btn a {
+  color: #FFFFFF;
+  text-decoration: none;
+ }
+
+ .hero-btn .fa-arrow-right {
+    margin-left: 10px; /* Ajoute un peu d'espace entre le texte et l'icône */
+  }
