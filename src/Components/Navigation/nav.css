@@ -31,8 +31,9 @@
   }
 
   .menu-img {
+    margin-left: 7px;
     height: 175px; /* ou toute autre taille désirée */
-    width: auto; /* pour maintenir le ratio de l'image */
+
     /* Ajouter d'autres styles ici si nécessaire */
   }
   

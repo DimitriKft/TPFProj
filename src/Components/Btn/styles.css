@@ -5,7 +5,7 @@
     margin-left: 45px;
     margin-top: 20px;
     box-shadow: 0px 20px 40px 0px rgba(252, 160, 177, 0.70);
-    padding: 19px 23.841px 16.39px 42px;
+
     border: none; /* No border */
     border-radius: 4px; 
     font-size: 16px;
@@ -18,20 +18,30 @@
     justify-content: center; /* Centrer le contenu horizontalement */
     align-items: center; /* Centrer le contenu verticalement */
     transition: background-color 0.3s, box-shadow 0.3s; 
+    padding: 0; /* Enlever le padding pour le mettre sur le <a> */
+  border: none;
   }
 
 
   .hero-btn:hover {
     color: white;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* More pronounced shadow on hover */
-    background-image: linear-gradient(to right, #9d50bb, #6e48aa); /* Different gradient on hover */
+    background-image: linear-gradient(to right, #10D678, #3A3A3A); /* Different gradient on hover */
   }
   
  .hero-btn a {
   color: #FFFFFF;
   text-decoration: none;
+  display: block;
+  padding: 19px 23.841px 16.39px 42px; /* Mettre le padding ici */
+  width: 100%; /* S'étend sur toute la largeur */
+  height: 100%; /* S'étend sur toute la hauteur */
+  color: #FFFFFF;
+  text-decoration: none;
+
  }
 
  .hero-btn .fa-arrow-right {
     margin-left: 10px; /* Ajoute un peu d'espace entre le texte et l'icône */
+    padding-right: 10px;
   }

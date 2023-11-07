@@ -1,0 +1,50 @@
+.section-container {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: linear-gradient(180deg, #312583 0%, #6042F4 100%);
+    color: #ffffff;
+    /* Votre couleur de texte */
+}
+
+.text-container h5 {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    color: #10D678;
+    margin-left: 45px;
+    /* Styles pour le titre principal */
+}
+
+
+.text-container h2 {
+    margin-left: 45px;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 40p;
+    /* Styles pour le sous-titre */
+}
+
+
+.text-container p {
+    margin-top: 0;
+    color: #FFFFFF;
+    display: block;
+    /* Affiche l'élément comme un bloc */
+    margin-left: 45px;
+    width: 70%;
+    /* Réduit la largeur de l'élément à 50% de son conteneur */
+}
+
+.icons-container>div {
+    margin-right: 45px;
+    display: flex;
+    /* cela positionne tous les enfants de div en ligne */
+    justify-content: center;
+    /* cela les centre horizontalement */
+    align-items: center;
+    /* cela les centre verticalement */
+    gap: 20px;
+    /* cela ajoute un peu d'espace entre chaque CircleIcon */
+}
